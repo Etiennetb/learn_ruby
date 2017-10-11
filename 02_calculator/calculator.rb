@@ -13,7 +13,14 @@ def sum(array)
 end
 
 
-
+# correction Felix
+def multiply(array_of_numbers)
+  multiplication = 1
+  array_of_numbers.each do |number|
+    multiplication = number * multiplication
+  end
+  multiplication
+end
 
 
 
